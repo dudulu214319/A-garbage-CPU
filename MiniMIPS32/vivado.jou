@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sat Oct 17 17:48:23 2020
+# Process ID: 23400
+# Current directory: D:/学习资料/2020第二学期-大三上/计算机组成体系/经典五级流水线处理器/MiniMIPS32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21612 D:\学习资料\2020第二学期-大三上\计算机组成体系\经典五级流水线处理器\MiniMIPS32\MiniMIPS32.xpr
+# Log file: D:/学习资料/2020第二学期-大三上/计算机组成体系/经典五级流水线处理器/MiniMIPS32/vivado.log
+# Journal file: D:/学习资料/2020第二学期-大三上/计算机组成体系/经典五级流水线处理器/MiniMIPS32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/学习资料/2020第二学期-大三上/计算机组成体系/经典五级流水线处理器/MiniMIPS32/MiniMIPS32.xpr
+update_compile_order -fileset sources_1

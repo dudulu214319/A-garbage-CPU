@@ -1,0 +1,44 @@
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto bb1d9b6b857a46b28863b191d55162ea --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_0 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot MiniMIPS32_SYS_tb_behav xil_defaultlib.MiniMIPS32_SYS_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 32 for port id_din_o [D:/Vivado/project/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/MiniMIPS32.v:121]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 32 for port id_din [D:/Vivado/project/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/MiniMIPS32.v:136]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port mem_whilo [D:/Vivado/project/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/MiniMIPS32.v:163]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port mem_whilo_i [D:/Vivado/project/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/MiniMIPS32.v:170]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.3/nightly/2017_10_04_2018833/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2420]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module blk_mem_gen_v8_4_0.blk_mem_gen_v8_4_0_output_stage(...
+Compiling module blk_mem_gen_v8_4_0.blk_mem_gen_v8_4_0_output_stage(...
+Compiling module blk_mem_gen_v8_4_0.blk_mem_gen_v8_4_0_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_0.blk_mem_gen_v8_4_0_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_0.blk_mem_gen_v8_4_0(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_rom
+Compiling module blk_mem_gen_v8_4_0.blk_mem_gen_v8_4_0_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_0.blk_mem_gen_v8_4_0(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.if_stage
+Compiling module xil_defaultlib.ifid_reg
+Compiling module xil_defaultlib.id_stage
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.idexe_reg
+Compiling module xil_defaultlib.exe_stage
+Compiling module xil_defaultlib.exemem_reg
+Compiling module xil_defaultlib.mem_stage
+Compiling module xil_defaultlib.memwb_reg
+Compiling module xil_defaultlib.wb_stage
+Compiling module xil_defaultlib.hilo
+Compiling module xil_defaultlib.MiniMIPS32
+Compiling module xil_defaultlib.MiniMIPS32_SYS
+Compiling module xil_defaultlib.MiniMIPS32_SYS_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MiniMIPS32_SYS_tb_behav
